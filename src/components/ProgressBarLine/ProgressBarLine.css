@@ -1,0 +1,6 @@
+.progress-bar-line {
+    all: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

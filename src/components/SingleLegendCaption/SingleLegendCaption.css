@@ -1,0 +1,16 @@
+.caption {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.color-preview {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.caption > span {
+    margin: auto auto auto 5px;
+}
