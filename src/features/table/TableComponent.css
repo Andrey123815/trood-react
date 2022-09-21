@@ -30,6 +30,20 @@ select {
   background: unset;
 }
 
+.name-with-status {
+  display: flex;
+  flex-direction: row;
+}
+
+.name-with-status__status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #e4e5ea;
+
+  margin: auto 5px auto 0;
+}
+
 .button {
   position: relative;
   place-content: center;
