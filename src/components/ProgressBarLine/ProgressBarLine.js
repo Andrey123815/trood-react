@@ -14,18 +14,22 @@ function ProgressBarLine(props) {
 
   const genSingleSubline = (countElems, color, height) => {
     const subline = [];
-    const singleElem = <div
-      style={{
-        width: singleElemWidth,
-        backgroundColor: color,
-        borderRadius: height * 0.2 + 'px',
-        height: height,
-        color: color
-      }}>
-    </div>;
+    const singleElem = (index) =>
+      <div
+        style={{
+          width: singleElemWidth,
+          backgroundColor: color,
+          borderRadius: height * 0.2 + 'px',
+          height: height,
+          color: color
+        }}
+        key={color + index}
+      >
+      </div>
+    ;
 
     for (let i = 0; i < countElems; i++) {
-      subline.push(singleElem);
+      subline.push(singleElem(i));
     }
 
     return subline;

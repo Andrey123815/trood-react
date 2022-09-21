@@ -6,7 +6,7 @@ function ProgressBarLegend(props) {
   return (
     <figcaption className="progress-bar-legend" style={{width: props.width}}>
       {props.items.map(item =>
-        <SingleLegendCaption item={item} percentage={(item.value / props.sum * 100).toFixed(2)}/>
+        <SingleLegendCaption key={item.name} item={item} percentage={(item.value / props.sum * 100).toFixed(2)}/>
       )}
     </figcaption>
   );
