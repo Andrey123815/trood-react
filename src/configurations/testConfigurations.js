@@ -22,26 +22,11 @@ const testTableCompItems = [
 ];
 
 const filters = {
-  type: 'TR',
-  status: 'green'
+  type: 'all',
+  status: 'all'
 };
-
-const onSort = (name) => {
-
-}
-
-const onFilter = (name) => {
-
-}
-
-const onBuy = (id) => {
-  alert(`Good with id ${id} sold`);
-}
 
 export const TableComponentTestCase = {
   items: testTableCompItems,
   filters,
-  onSort,
-  onFilter,
-  onBuy
 }

@@ -18,6 +18,7 @@ th, select {
 
 td, th {
   text-align: left;
+  cursor: pointer;
 }
 
 tr > td:nth-child(-n + 8):nth-child(n + 5),

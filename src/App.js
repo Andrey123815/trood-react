@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Testcase} from "./features/mode/Testcase";
+import {Testcase} from "./features/testcase/Testcase";
 
 function App() {
 

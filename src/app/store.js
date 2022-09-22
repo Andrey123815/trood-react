@@ -1,10 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
 import counterReducer from '../features/counter/counterSlice';
-import testcaseReducer from '../features/mode/testcaseSlice';
+import testcaseReducer from '../features/testcase/testcaseSlice';
 
 export const store = configureStore({
   reducer: {
     counter: counterReducer,
-    modeSwitcher: testcaseReducer
+    testcaseSwitcher: testcaseReducer,
+    // tableManager: tableReducer,
   },
 });
