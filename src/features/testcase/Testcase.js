@@ -50,7 +50,7 @@ export function Testcase() {
     <>
       <Router>
           <Routes>
-            <Route path="/" element={
+            <Route path="/trood-react" element={
               <div className="content">
                 {mode === PROGRESS_BAR_MODE
                   ? <ProgressBar data={ProgressBarTestCase}/>
