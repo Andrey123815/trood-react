@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/trood-react/static/css/main.283cd867.css",
+    "main.js": "/trood-react/static/js/main.9503b88b.js",
+    "index.html": "/trood-react/index.html",
+    "main.283cd867.css.map": "/trood-react/static/css/main.283cd867.css.map",
+    "main.9503b88b.js.map": "/trood-react/static/js/main.9503b88b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.283cd867.css",
+    "static/js/main.9503b88b.js"
+  ]
+}
